@@ -49,6 +49,7 @@ All alerts are generated from systems like Zendesk, Salesforce, or other support
 ### 3. Escalation Language Detected
 
 **Description**: Triggers when certain customer language is detected in ticket replies.  
+
 **Trigger Phrases (examples)**:
 - “I’m frustrated”
 - “It’s still broken”
