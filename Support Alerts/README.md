@@ -22,11 +22,13 @@ All alerts are generated from systems like Zendesk, Salesforce, or other support
 ### 1. New Ticket Created
 
 **Description**: Triggers when a new customer ticket is created.  
+
 **Slack Message Includes**:
 - Customer name or account
 - Ticket subject or short summary
 - Ticket priority (Critical, High, Normal, Low)
 - Link to the ticket  
+
 **Purpose**: Provides immediate awareness of new issues. Helps spot high-priority tickets early.
 
 ---
@@ -34,10 +36,12 @@ All alerts are generated from systems like Zendesk, Salesforce, or other support
 ### 2. Negative CSAT Received
 
 **Description**: Triggers when a customer submits a CSAT survey with a poor rating.  
+
 **Slack Message Includes**:
 - Rating (e.g. “Bad”)
 - Customer’s comment (if available)
 - Link to the ticket  
+
 **Purpose**: Surfaces negative feedback for immediate follow-up or investigation. Enables fast recovery or escalation.
 
 ---
@@ -50,10 +54,12 @@ All alerts are generated from systems like Zendesk, Salesforce, or other support
 - “It’s still broken”
 - “This is unacceptable”
 - “We may churn”  
+
 **Slack Message Includes**:
 - Customer name
 - The triggering sentence or phrase
 - Link to the ticket  
+
 **Purpose**: Flags emotionally charged or escalating customer sentiment. Gives support leaders a chance to step in before it spirals.
 
 ---
@@ -61,11 +67,13 @@ All alerts are generated from systems like Zendesk, Salesforce, or other support
 ### 4. New Engineering Escalation
 
 **Description**: Triggers when a support engineer marks a ticket as escalated to engineering (e.g., via a custom field or tag).  
+
 **Slack Message Includes**:
 - Customer name
 - Escalation reason or ticket subject
 - Assigned engineer or team (if known)
 - Link to the Zendesk/JIRA ticket  
+
 **Purpose**: Keeps leadership informed of handoffs to engineering. Ensures accountability and timely follow-up.
 
 ---
@@ -73,11 +81,13 @@ All alerts are generated from systems like Zendesk, Salesforce, or other support
 ### 5. Engineering Escalation Aged 14+ Days
 
 **Description**: Triggers when an open engineering escalation has been unresolved for over 14 days.  
+
 **Slack Message Includes**:
 - Customer name
 - Date escalated
 - Original support ticket link
 - Engineering ticket link (if applicable)  
+
 **Purpose**: Surfaces stale escalations that may be stuck. Enables nudging, re-prioritizing, or closing the loop with the customer.
 
 ---
