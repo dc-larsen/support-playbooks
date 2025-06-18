@@ -1,116 +1,116 @@
-Support Triage Process
+# Support Triage Process
 
-The Support Triage process is a daily (or near-daily) meeting designed to foster alignment between Technical Support Engineers (TSEs) and Engineering teams. The primary purpose is to review escalated customer issues, ensure progress is being made, and clarify next steps. This process improves turnaround time, deepens cross-functional collaboration, and strengthens the overall quality of customer support.
+The Support Triage process is a regular meeting (typically daily) designed to improve alignment between Technical Support Engineers (TSEs) and Engineering teams. The goal is to review escalated issues, confirm classification, ensure accountability, and promote faster resolution through shared visibility and collaboration.
 
-⸻
+---
 
-Objectives
-	•	Ensure consistent progress on escalated support tickets
-	•	Confirm classification of each escalated issue (bug or feature request)
-	•	Drive clear ownership and next steps
-	•	Improve support-to-engineering knowledge transfer
-	•	Increase visibility across customer-facing teams
+## 🧭 Objectives
 
-⸻
+- Ensure consistent progress on escalated support tickets  
+- Confirm classification of each issue as a bug or feature request  
+- Drive clear ownership and next steps  
+- Improve support-to-engineering knowledge transfer  
+- Increase visibility across customer-facing teams  
 
-Participants
-	•	Technical Support Engineers (TSEs): Present context and updates on escalated tickets
-	•	Engineering Representatives: Provide status updates or next steps on owned issues
-	•	Meeting Owner (Ceremony Master): Facilitate, timebox, and track progress
-	•	Optional Attendees: Customer Success Managers, Sales Engineers, Product Managers, others with customer context
+---
 
-⸻
+## 👥 Participants
 
-Meeting Format
-	•	Cadence: Daily or at a regular time (15 minutes max recommended)
-	•	Structure:
-	•	Review by engineering team (e.g., Java team, Frontend team, Backend team, Security team)
-	•	Each TSE gives a quick update on their escalated tickets
-	•	Engineering responds with updates, blockers, or next steps
-	•	Meeting owner facilitates, moves conversation along, timeboxes discussions
-	•	Any ticket needing further discussion can be moved to a separate thread or follow-up call
+- **Technical Support Engineers (TSEs)** — present escalated ticket context and updates  
+- **Engineering Representatives** — share status or required actions  
+- **Meeting Owner (Ceremony Master)** — facilitates, timeboxes, and keeps the meeting on track  
+- **Optional Attendees** — CSMs, Sales Engineers, Product, or anyone interested in escalated customer issues  
 
-⸻
+---
 
-Escalation Criteria
+## 🧱 Meeting Format
 
-TSEs should only escalate tickets that:
-	•	Have sufficient context and reproduction steps
-	•	Include logs, environment details, and steps taken so far
-	•	Are clearly customer-impacting and meet internal severity thresholds
+- **Cadence**: Daily or at a consistent time  
+- **Duration**: ~15 minutes  
+- **Structure**:
+  - Review by engineering team (e.g., Java, Frontend, Backend, Security)
+  - TSE presents escalated ticket(s)
+  - Engineers respond with status, next steps, or blockers
+  - Meeting owner keeps pace and moves long conversations to follow-ups
 
-⸻
+---
 
-Post-Triage Ticket Flows
+## ⚠️ Escalation Criteria
 
-Bug Confirmed:
-	•	Ticket is confirmed as a bug
-	•	Engineering team triages and assigns based on severity:
-	•	Critical: Interrupts sprint
-	•	Major: Enters next sprint
-	•	Minor / Tech Debt: Backlogged for future prioritization
-	•	Ticket status should update in the support platform when resolved
+Only escalate a support ticket when:
+- It has detailed context, including steps to reproduce  
+- Logs and environmental info are provided  
+- It clearly impacts the customer and meets severity thresholds  
 
-Feature Request:
-	•	Confirmed as feature request
-	•	Routed through Product Management + CS for prioritization
-	•	Linked to any open Product feedback or roadmap items
+---
 
-⸻
+## 🔄 Post-Triage Ticket Flows
 
-Tooling & Workflow Integration
+### 🐞 Bug Confirmed
+- Prioritized by severity:
+  - **Critical** — interrupts current sprint  
+  - **Major** — included in next sprint  
+  - **Minor / Tech Debt** — added to engineering backlog  
 
-Required Fields (on Escalated Ticket):
-	•	Customer Name / ID
-	•	Ticket Origin (link to original support ticket)
-	•	Severity
-	•	Escalation Reason
-	•	Owner (Support and Engineering)
-	•	Date escalated
-	•	Status (Open, In Progress, Blocked, Resolved)
+Support ticket is reopened or marked for follow-up once resolved.
 
-Closure Codes / Resolution Statuses:
-	•	Closed - Code Fix
-	•	Closed - Docs Updated
-	•	Closed - Knowledge Transfer
-	•	Closed - Product Feedback
+### 💡 Feature Request
+- Routed to Product and CS for prioritization  
+- May be added to roadmap or feedback backlog  
 
-These should be selectable fields in your support platform to help categorize and report on escalation outcomes.
+---
 
-Ticket Sync Behavior:
-	•	When an engineering ticket is resolved/closed:
-	•	The linked support ticket should move to Open or Pending Support Follow-up
-	•	The TSE reviews the outcome, follows up with the customer, and updates resolution status
+## 🧰 Tooling & Workflow Integration
 
-⸻
+### Required Fields on Escalated Ticket:
+- Customer Name / ID  
+- Link to original support ticket  
+- Severity  
+- Escalation Reason  
+- Support + Engineering Owners  
+- Date escalated  
+- Status (Open, In Progress, Blocked, Resolved)  
 
-Metrics to Track
-	•	Volume of tickets escalated to engineering
-	•	Average resolution time for escalated tickets
-	•	Breakdown by closure code (Code Fix vs Docs Updated, etc.)
-	•	% of bugs vs feature requests
-	•	Engineering team responsiveness
-	•	Knowledge base or documentation articles created as a result of triage
+### Closure Codes / Resolution Statuses:
+- `Closed - Code Fix`  
+- `Closed - Docs Updated`  
+- `Closed - Knowledge Transfer`  
+- `Closed - Product Feedback`  
 
-⸻
+These codes should be tracked in your support platform for reporting.
 
-Best Practices
-	•	Keep the meeting focused — side discussions should go async or to follow-up meetings
-	•	Always include customer impact in the escalated ticket
-	•	Encourage regular documentation of recurring issues
-	•	Allow engineers to ask for more info, but hold support accountable to thorough initial investigations
+### Sync Behavior:
+When the engineering ticket is closed:
+- Reopen or update the support ticket to `Open` or `Pending Support Follow-up`  
+- TSE reviews outcome and follows up with customer  
 
-⸻
+---
 
-Example Agenda
-	1.	Quick greeting + recap (1 minute)
-	2.	Go team-by-team:
-	•	TSE presents ticket(s)
-	•	Engineering responds
-	3.	Identify action items + responsible party
-	4.	Time permitting, summarize blockers or high-priority items
-	5.	End on time
+## 📊 Metrics to Track
 
-⸻
+- # of tickets escalated to engineering  
+- Average time to resolution  
+- Distribution by closure code  
+- Ratio of bugs vs. feature requests  
+- Responsiveness by engineering team  
+- Docs or KB articles created as a result  
 
-This triage process is a key part of delivering reliable, responsive, and transparent customer support. By embedding it into the support and engineering workflow, teams create more accountability, clarity, and momentum across the lifecycle of escalated issues.
+---
+
+## ✅ Best Practices
+
+- Keep the meeting tight; async follow-up for deep dives  
+- Always include customer impact  
+- Promote documenting known issues  
+- Hold support accountable for escalation readiness  
+- Encourage transparency across teams  
+
+---
+
+## 📝 Sample Agenda
+
+1. Quick intro or recap (1 min)  
+2. Team-by-team ticket review  
+3. Assign actions / identify blockers  
+4. Summarize top-priority items  
+5. End on time  
