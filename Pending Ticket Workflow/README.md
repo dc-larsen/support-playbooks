@@ -22,7 +22,7 @@ Sends a friendly nudge to the customer 2 business days after a ticket goes into 
 All of the following must be true:
 
 - `Ticket: Status` is `Pending`  
-- `Ticket: Brand` is `Sentry`  
+- `Ticket: Brand` is `{{YOUR COMPANY}}`  
 - `Ticket: Hours since pending (business)` is `16`  
 - `Ticket: Tags` does **not** contain `missed_reminder`
 
@@ -42,7 +42,7 @@ Oh, and here's a quick recap of your request:
 {{ticket.comments_formatted}}
 
 Cheers,  
-The Sentry Support Team
+The {{YOUR COMPANY}} Support Team
 ```
 
 - (Optional) Adds tag: `first_reminder_sent`
@@ -58,7 +58,7 @@ Fires 5 business days after a ticket goes into `Pending`, assuming the customer 
 All of the following must be true:
 
 - `Ticket: Status` is `Pending`  
-- `Ticket: Brand` is `Sentry`  
+- `Ticket: Brand` is `{{YOUR COMPANY}}`  
 - `Ticket: Hours since pending (business)` is `40`  
 - `Ticket: Tags` does **not** contain `closure_warning_sent`
 
@@ -81,7 +81,7 @@ Here's a recap of your original request:
 {{ticket.comments_formatted}}
 
 Thanks,  
-The Sentry Support Team
+The {{YOUR COMPANY}} Support Team
 ```
 
 - Adds tag: `closure_warning_sent`
@@ -97,7 +97,7 @@ After 7 business days of inactivity, this automation preps the ticket for auto-c
 All of the following must be true:
 
 - `Ticket: Status` is `Pending`  
-- `Ticket: Brand` is `Sentry`  
+- `Ticket: Brand` is `{{YOUR COMPANY}}`  
 - `Ticket: Hours since pending (business)` is `56`  
 - `Ticket: Tags` includes `closure_warning_sent`  
 - `Ticket: Tags` does **not** contain `auto_closed_pending`
