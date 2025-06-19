@@ -51,7 +51,7 @@ The {{YOUR COMPANY}} Support Team
 
 ## Automation: 5-Day Pending Reminder + Closure Warning
 
-Fires 5 business days after a ticket goes into `Pending`, assuming the customer hasn’t responded. Gives them a heads-up that we’ll be closing the ticket soon.
+Fires 5 business days after a ticket goes into `Pending`, assuming the customer hasn’t responded. Gives them a heads-up that we’ll be closing the ticket soon and notifies the assigned agent.
 
 ### Trigger Conditions
 
@@ -86,11 +86,32 @@ The {{YOUR COMPANY}} Support Team
 
 - Adds tag: `closure_warning_sent`
 
+- Adds an internal note to the ticket:
+
+```text
+Internal Note:
+
+Heads up — this ticket has been in Pending for 5 business days with no response from the customer.
+
+Unless action is taken, this will be automatically closed in 2 days.
+```
+
+- Sends a Slack message to the assigned agent (via webhook/Zapier/Slack integration):
+
+```text
+:ticket: *Pending ticket auto-closure alert*
+
+{{ticket.assignee.name}}, your ticket ({{ticket.id}}) has been in Pending for 5 business days with no customer response.
+
+It will be auto-closed in 2 days unless you take action.  
+Link: {{ticket.url}}
+```
+
 ---
 
 ## Automation: 7-Day Auto-Close
 
-After 7 business days of inactivity, this automation preps the ticket for auto-closure and notifies the assigned agent.
+After 7 business days of inactivity, this automation preps the ticket for auto-closure.
 
 ### Trigger Conditions
 
@@ -104,29 +125,20 @@ All of the following must be true:
 
 ### Actions
 
-- Adds an internal note to the ticket:
-
 ```text
-Internal Note:
+Subject: Closing your ticket for now — Sentry Support [#{{ticket.id}}]
 
-Heads up — this ticket has been in Pending for 7 business days with no response from the customer.
+Hi {{ticket.requester.first_name}},
 
-Unless action is taken, this will be automatically closed.
+We haven’t heard back from you, so we’re going to go ahead and close this ticket for now. No worries though — if you still need help, just reply to this email and we’ll pick things up right where we left off.
+
+Here’s a recap of your original request, in case it’s helpful:
+
+{{ticket.comments_formatted}}
+
+Thanks again for reaching out,  
+The {{YOUR COMPANY}} Support Team
 ```
-
-- Sends a Slack message to the assigned agent (via webhook/Zapier/Slack integration):
-
-```text
-:ticket: *Pending ticket auto-closure alert*
-
-{{ticket.assignee.name}}, your ticket ({{ticket.id}}) has been in Pending for 7 business days with no customer response.
-
-It will be auto-closed unless you take action.  
-Link: {{ticket.url}}
-```
-
-- Changes ticket status to `Closed`  
-- Adds tag: `auto_closed_pending` for reporting
 
 ---
 
