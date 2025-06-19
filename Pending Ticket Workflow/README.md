@@ -31,7 +31,7 @@ All of the following must be true:
 - Sends an email to the customer using the following template:
 
 ```text
-Subject: Just checking in on your support request
+Subject: Is this still something you need help with? [Sentry Support #{{ticket.id}}]
 
 Hey there {{ticket.requester.first_name}},
 
@@ -67,7 +67,7 @@ All of the following must be true:
 - Sends the following email to the customer:
 
 ```text
-Subject: Following up — we’ll be closing this ticket soon
+Subject: Is this still something you need help with? [Sentry Support #{{ticket.id}}]
 
 Hey {{ticket.requester.first_name}},
 
