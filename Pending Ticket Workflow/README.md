@@ -21,8 +21,8 @@ Sends a friendly nudge to the customer 2 business days after a ticket goes into 
 All of the following must be true:
 
 - `Ticket: Status` is `Pending`  
-- `Ticket: Brand` is `Sentry`  
-- `Ticket: Hours since pending (business)` is `16`  
+- `Ticket: Brand` is `{{YOUR BRAND}}`  
+- `Ticket: Hours since pending (business)` is `48`  
 - `Ticket: Tags` does **not** contain `missed_reminder`
 
 ### Actions
