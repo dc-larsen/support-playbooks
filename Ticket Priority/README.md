@@ -1,4 +1,5 @@
 # Zendesk to Engineering Priority Alignment Process
+![image](https://github.com/user-attachments/assets/1ae59989-8fbb-4e71-b215-ab129a683ed4)
 
 ## Purpose
 
