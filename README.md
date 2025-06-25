@@ -1,4 +1,5 @@
-A collection of customer support workflows, playbooks, and process docs I’ve built and used across SaaS companies. Focused on scaling ops, improving response times, and making life easier for agents and customers alike.
+![image](https://github.com/user-attachments/assets/a9cb2779-924b-4ace-b7d3-de1690aa63a1)
+
 
 
 ## 📚 Playbooks
