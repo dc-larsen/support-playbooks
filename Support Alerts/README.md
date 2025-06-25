@@ -44,6 +44,8 @@ All alerts are generated from systems like Zendesk, Salesforce, or other support
 
 **Purpose**: Surfaces negative feedback for immediate follow-up or investigation. Enables fast recovery or escalation.
 
+<img width="876" alt="image" src="https://github.com/user-attachments/assets/2c9b525a-156b-466f-a5f9-f4821a0529b0" />
+
 ---
 
 ### 3. Escalation Language Detected
