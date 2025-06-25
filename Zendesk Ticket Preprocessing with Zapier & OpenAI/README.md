@@ -1,5 +1,8 @@
 # Zendesk Ticket Preprocessing with Zapier & OpenAI
 
+![image](https://github.com/user-attachments/assets/310d9745-e98d-4262-aa4d-69e479e4cdff)
+
+
 This project provides a step-by-step guide for automating Zendesk ticket triage using Zapier, OpenAI (GPT-4), and Zendesk’s API.  
 No custom code is required—just Zapier’s built-in actions and Webhooks.
 
