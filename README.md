@@ -1,4 +1,6 @@
-![image](https://github.com/user-attachments/assets/572bfe96-a9f9-476b-a8b8-d90dda5fa4d1)
+<p align="center">
+  <img src="![image](https://github.com/user-attachments/assets/f750b559-59b3-4a7e-94ca-d72c0d9657cb)" alt="Support Playbooks banner" width="80%">
+</p>
 
 
 
