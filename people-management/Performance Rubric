@@ -49,4 +49,12 @@ Define clear performance expectations for agents supporting a SaaS product in a 
 
 ---
 
-![Agent performance rubric](./agent-performance-rubric.png)
+# Agent performance rubric
+
+| **Category** | **Exceeds expectations** | **Meets expectations** | **Needs improvement** |
+| ------------ | ------------------------- | ---------------------- | --------------------- |
+| **Technical troubleshooting** | Quickly identifies root causes; deep knowledge; proactively suggests solutions | Accurately diagnoses and resolves most issues; uses tools effectively | Frequently misdiagnoses or escalates prematurely; inconsistent application of knowledge |
+| **Documentation / knowledge sharing** | Creates high-quality documentation; proactively shares knowledge | Updates tickets/KB with clear, accurate info | Incomplete or unclear documentation; relies on others to clean up |
+| **Collaboration and escalation** | Smooth collaboration with engineering; anticipates needs; provides clear context | Escalates when needed; provides sufficient handoff info | Escalates too often or with poor handoff quality |
+| **Customer communication** | Communicates clearly and confidently; builds trust even in difficult situations | Maintains clear, timely, professional communication | Poor or delayed communication; confuses or frustrates customers |
+| **Efficiency and productivity** | Handles high volume with accuracy; proactively helps others when able | Maintains expected ticket/call volume and timeliness | Struggles to keep pace or meet SLA targets |
