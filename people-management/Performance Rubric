@@ -1,0 +1,52 @@
+# Agent performance rubric
+
+## Objective
+Define clear performance expectations for agents supporting a SaaS product in a technical troubleshooting role, to support coaching, feedback, and consistent evaluation.
+
+---
+
+## Core performance categories
+
+### 1️⃣ Technical troubleshooting
+- **Exceeds expectations:** Quickly identifies root causes; demonstrates depth of product and systems knowledge; proactively suggests solutions.
+- **Meets expectations:** Accurately diagnoses and resolves most issues; asks for help appropriately; uses tools and resources effectively.
+- **Needs improvement:** Frequently misdiagnoses or escalates prematurely; struggles to apply knowledge consistently.
+
+---
+
+### 2️⃣ Documentation / knowledge sharing
+- **Exceeds expectations:** Consistently creates high-quality documentation; shares knowledge proactively with team.
+- **Meets expectations:** Updates tickets and knowledge base with clear, accurate information.
+- **Needs improvement:** Incomplete or unclear documentation; relies on others to clean up knowledge gaps.
+
+---
+
+### 3️⃣ Collaboration and escalation
+- **Exceeds expectations:** Works smoothly with engineering; anticipates when to involve them and provides clear, actionable context.
+- **Meets expectations:** Escalates when needed, providing sufficient information for smooth handoff.
+- **Needs improvement:** Escalates too often or with poor handoff quality; creates unnecessary back-and-forth.
+
+---
+
+### 4️⃣ Customer communication
+- **Exceeds expectations:** Communicates clearly and confidently across all channels; builds trust and rapport even in difficult situations.
+- **Meets expectations:** Maintains professional, clear, timely communication on tickets and calls.
+- **Needs improvement:** Poor communication style or delays; confuses customers or frustrates them unnecessarily.
+
+---
+
+### 5️⃣ Efficiency and productivity
+- **Exceeds expectations:** Consistently handles a high volume of work with accuracy; proactively helps others when workload allows.
+- **Meets expectations:** Maintains expected ticket/call volume and timeliness.
+- **Needs improvement:** Struggles to keep pace or meet SLA targets.
+
+---
+
+## Manager tips
+- Calibrate expectations based on case complexity and ticket mix.
+- Regularly review both **quantitative metrics** (e.g., ticket volume, SLA adherence) and **qualitative feedback** (e.g., customer feedback, escalation quality).
+- Use this rubric in coaching conversations, but pair it with examples and data for clarity.
+
+---
+
+![Agent performance rubric](./agent-performance-rubric.png)
