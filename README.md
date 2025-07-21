@@ -11,4 +11,4 @@
 - [Support Alerts](https://github.com/FlaskNField/support-playbooks/blob/main/Support%20Alerts/README.md)
 - [Pending Ticket Workflow](https://github.com/FlaskNField/support-playbooks/blob/main/Pending%20Ticket%20Workflow/README.md)
 - [Zendesk Ticket Preprocessing with Zapier & OpenAI](https://github.com/dc-larsen/zendesk-zapier-preprocessing/README.md)
-- [People Management]([https://github.com/dc-larsen/zendesk-zapier-preprocessing](https://github.com/dc-larsen/support-playbooks/tree/main/people-management)/README.md)
+- [People Management]([https://github.com/dc-larsen/zendesk-zapier-preprocessing](https://github.com/dc-larsen/support-playbooks/tree/main/people-management/README.md)
