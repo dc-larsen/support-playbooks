@@ -1,6 +1,8 @@
 # People management
 
-![Studio Ghibli-inspired coaching scene](./coaching-art-resized.png)
+<p align="center">
+  <img src="./coaching-art-resized.png" alt="Studio Ghibli-inspired coaching scene">
+</p>
 
 ## Summary
 This section defines principles, expectations, and frameworks for managing people in a customer support environment at a SaaS company. It’s designed to provide clear guidance for how we lead, communicate, and build a healthy, high-performing team.
