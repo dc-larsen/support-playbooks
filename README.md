@@ -1,9 +1,6 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f750b559-59b3-4a7e-94ca-d72c0d9657cb" alt="Support Playbooks banner" width="80%">
-</p>
-
 <img width="1024" height="1024" alt="image-support-playbooks" src="https://github.com/user-attachments/assets/07e1d420-07c5-4003-b28e-359c4925f607" />
-
+</p>
 ## 📚 Playbooks
 
 - [Support Triage](https://github.com/FlaskNField/support-playbooks/blob/main/Support%20Triage/README.md)
